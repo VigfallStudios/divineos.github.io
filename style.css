@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: #00A3A3; /* turquoise like your OS */
+  color: white;
+  font-size: 14px;
+}
+
+.status-bar {
+  background-color: #808080; /* gray bar */
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.verse {
+  margin-left: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.bigverse {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+}
